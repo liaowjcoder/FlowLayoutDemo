@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zeal.flowlayoutdemo.MainActivity">
+
+    <!--宽度包裹：计算子view的大小作为控件的大小-->
+    <com.zeal.flowlayoutdemo.view.FlowLayoutView
+        android:layout_width="200dp"
+        android:layout_height="360dp"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="android" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="java" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="php" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="iOS" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="macbook pro" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="慕课网" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="zeal" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="疯狂 crazy man" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="ssh" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="ssm" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="36人才网" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="印刷人才网" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="汽车人才网" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Android develper" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Google" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Oracle" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="MySql" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="数据结构" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="算法" />
+
+    </com.zeal.flowlayoutdemo.view.FlowLayoutView>
+</RelativeLayout>
